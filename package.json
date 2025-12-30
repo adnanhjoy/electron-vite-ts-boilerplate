@@ -1,13 +1,13 @@
 {
-  "name": "burcelona-pos",
+  "name": "electron-vite-ts-boilerplate",
   "version": "1.0.0",
   "description": "An Electron application with React and TypeScript",
   "main": "./out/main/index.js",
-  "author": "Barakah Tech",
+  "author": "Adnan Hossain",
   "homepage": "https://electron-vite.org",
   "build": {
     "appId": "react.electron.pos",
-    "productName": "Burcelona Pos",
+    "productName": "Electron Vite TS Boilerplate",
     "directories": {
       "output": "dist"
     },
@@ -19,7 +19,7 @@
       "category": "Utils",
       "icon": "icon.ico",
       "packageCategory": "utils",
-      "maintainer": "your name <your email>",
+      "maintainer": "Adnan Hossain <adnanwebdevs@gmail.com>",
       "asar": true,
       "target": [
         "deb",
@@ -35,8 +35,8 @@
       "oneClick": false,
       "installerIcon": "icon.ico",
       "uninstallerIcon": "icon.ico",
-      "uninstallDisplayName": "Bengal Pos 1.0.0",
-      "license": "license.md",
+      "uninstallDisplayName": "Electron App 1.0.0",
+      "license": "LICENSE.md",
       "allowToChangeInstallationDirectory": true,
       "createDesktopShortcut": true,
       "createStartMenuShortcut": true
@@ -59,7 +59,9 @@
   },
   "dependencies": {
     "@electron-toolkit/preload": "^3.0.2",
-    "@electron-toolkit/utils": "^4.0.0"
+    "@electron-toolkit/utils": "^4.0.0",
+    "@tailwindcss/vite": "^4.1.18",
+    "react-router-dom": "^7.11.0"
   },
   "devDependencies": {
     "@electron-toolkit/eslint-config-prettier": "^3.0.0",
